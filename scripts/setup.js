@@ -17,7 +17,7 @@ const request = require('request');
 
 function setup() {
   files.requirements(".").map(info => {
-    mkdirp(info.basedir);
+    mkdirp.sync(info.basedir);
     downloadIfNeeded(info.url, info.path);
   });
 }
