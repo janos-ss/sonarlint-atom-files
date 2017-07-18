@@ -1,0 +1,2 @@
+# SonarLint for Atom files
+

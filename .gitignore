@@ -1,0 +1,14 @@
+# OS junk
+.DS_Store
+
+# Node
+npm-debug.log
+node_modules
+
+# packaging
+dist
+*.zip
+*.tgz
+
+# project work files
+#files
